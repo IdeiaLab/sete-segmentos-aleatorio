@@ -24,12 +24,12 @@
       no programa também.
     </p>
     <p>
-      Note que atribuir um valor máximo maior que 9 a ser gerado pode findar em comportamento indefinido do programa.
+      <strong>Note que atribuir um valor máximo maior que 9 a ser gerado pode findar em comportamento indefinido de todo o sistema.</strong>
     </p>
   </div>
   <hr/>
 <h3>Funcionamento</h3>
 <div align='left'>
-  O funcionamento do sistema é extremamente simples, basta apertar o botão de contato momentâneo e o programa gerará
+  O funcionamento do sistema é extremamente simples: basta apertar o botão de contato momentâneo<br/> e o programa gerará
   N números de X a Y, com intervalos entre as gerações para que haja uma "animação" no display.
 </div>
