@@ -5,7 +5,6 @@
     <ul>
       <li>Arduino IDE</li>
       <li>Arduino C</li>
-      <li>C++</li>
     </ul>
     Componentes: 
     <ul>
