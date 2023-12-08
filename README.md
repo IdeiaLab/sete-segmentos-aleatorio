@@ -1,5 +1,3 @@
-circuito integrado 4511,
-
 # Gerador de número aleatório para display de 7 segmentos 
 ### Informações
   <div align='left'>
@@ -9,10 +7,20 @@ circuito integrado 4511,
       <li>Arduino C</li>
       <li>C++</li>
     </ul>
-    Placa utilizada: 
-    <ul><li>Arduino UNO</li></ul>
+    Componentes: 
+    <ul>
+      <li>Arduino UNO</li>
+      <li>Botão de contato momentâneo</li>
+      <li>Display de sete segmentos</li>
+      <li>Circuito Integrado 4511</li>
+      <li>2x Resistor de 300 ohms</li>
+    </ul>
     <p>
-      <a href-'https://byjus.com/maths/decimal-to-binary/'>LEIA SOBRE CONVERSÃO DE BASES</a>
+      <a href='https://byjus.com/maths/decimal-to-binary/'>LEIA SOBRE A CONVERSÃO INCORPORADA NO PROGRAMA</a><br/>
+      Para a montagem do circuito, você pode seguir o diagrama encontrado
+      <a href='https://www.arduinoecia.com.br/como-usar-decodificador-cd4511-arduino-display-7-segmentos/'>aqui</a>
+      e depois basta ligar o botão de contato momentâneo a um pino de sua placa Arduino, lembre-se de definir o pino
+      no programa também.
     </p>
   </div>
   <hr/>
