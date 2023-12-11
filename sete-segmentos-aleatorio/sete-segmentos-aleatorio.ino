@@ -16,8 +16,8 @@ namespace Constante
   // Valor mínimo(inclusive) e máximo(inclusive) a ser gerado pela função random()
   constexpr byte VALOR_MINIMO = 0, VALOR_MAXIMO = 9;
 
-  // Delay entre cada geração e atribuição de bits
-  // ao CI, em milissegundos.
+  // Delay máximo entre cada geração e atribuição 
+  // de bits ao CI, em milissegundos.
   constexpr long DELAY_MAXIMO_GERACOES = 500; 
 
   // Número de vezes que será repetido o processo de
@@ -64,17 +64,17 @@ void loop()
     // atribuídos aos pinos do CI
     limpaBits(Variavel::bits);
 
-    // O valor mínimo é 0b0001 (0) e o máximo é Constante::VALOR_MAXIMO.
-    // É necessário adicionar uma unidade pela propriedade da exclusão
-    // do número máximo recebido pela função random.
+    // O valor mínimo é Constante::VALOR_MINIMO e o máximo é Constante::VALOR_MAXIMO.
+    // Adiciona-se uma unidade a Constante::VALOR_MAXIMO pela propriedade exclusiva
+    // do número máximo recebido pela função random. Note que valores menores que 0
+    // e maiores que 9 geram comportamento indefinido.
     byte numeroGerado = random(Constante::VALOR_MINIMO, Constante::VALOR_MAXIMO + 1);
 
     // Realizar a geração e atribuição dos bits várias vezes
     // dará um efeito visual satisfatório no display
     decimalParaBinario(numeroGerado, Variavel::bits);
 
-    // Os bits convertidos são escritos nos pinos
-    // do CI 4511
+    // Os bits convertidos são escritos nos pinos do CI 4511
     escritaNosPinos(Variavel::bits);
 
     // Mapeia da porcentagem de conclusão do loop for para um delay entre 0 e DELAY_MAXIMO_GERACOES, o valor mapeado
@@ -98,9 +98,9 @@ void limpaBits(byte* bits)
 /// Cada posição do vetor receberá um bit do número resultante.
 /// Nota-se que o vetor estará invertido, isto é, o dígito mais
 /// significativo estará na posição 0, e os demais, nas que se sucedem.
+/// Leia o arquivo README.md para mais informações sobre a conversão.
 void decimalParaBinario(byte decimal, byte* vetorBinario)
 {
-  // Leia o arquivo README.md para mais informações sobre a conversão.
   byte posicao = 0;
 
   while(decimal > 1)
@@ -119,7 +119,7 @@ void decimalParaBinario(byte decimal, byte* vetorBinario)
 void escritaNosPinos(const byte* bits)
 {
   // No caso da conversão realizada, o vetor resultante está em ordem
-  // inversa, i.e., a posição 0 contém o bit mais significativo. 
+  // direta, i.e., a posição 0 contém o bit menos significativo. 
   digitalWrite(Constante::A, bits[0]);
   digitalWrite(Constante::B, bits[1]);
   digitalWrite(Constante::C, bits[2]);
