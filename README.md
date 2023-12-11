@@ -30,6 +30,9 @@
   </div>
   <hr/>
 <h3>Funcionamento</h3>
+
+![IMG_20231208_113114](https://github.com/IdeiaLab/sete-segmentos-aleatorio/assets/121146950/a805da3a-0262-4367-938d-90bcd5192002)
+
 <div align='left'>
   O funcionamento do sistema é extremamente simples: basta apertar o botão de contato momentâneo<br/> e o programa gerará
   N números de X a Y, com intervalos entre as gerações para que haja uma "animação" no display.
