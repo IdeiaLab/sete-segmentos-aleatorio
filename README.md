@@ -13,6 +13,7 @@
       <li>Display de sete segmentos</li>
       <li>Circuito Integrado 4511</li>
       <li>2x Resistor de 300 ohms</li>
+      <li>Vários <i>jumpers</i></li>
     </ul>
     <p>
       <a href='https://byjus.com/maths/decimal-to-binary/'>LEIA SOBRE A CONVERSÃO INCORPORADA NO PROGRAMA</a><br/>
