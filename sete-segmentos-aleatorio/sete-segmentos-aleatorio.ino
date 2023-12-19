@@ -96,8 +96,8 @@ void limpaBits(byte* bits)
 
 /// Recebe um número na base decimal e um vetor como entrada.
 /// Cada posição do vetor receberá um bit do número resultante.
-/// Nota-se que o vetor estará invertido, isto é, o dígito mais
-/// significativo estará na posição 0, e os demais, nas que se sucedem.
+/// Nota-se que o dígito mais significativo estará na posição 0, 
+/// e os demais, nas que se sucedem.
 /// Leia o arquivo README.md para mais informações sobre a conversão.
 void decimalParaBinario(byte decimal, byte* vetorBinario)
 {
