@@ -35,5 +35,5 @@
 
 <div align='left'>
   O funcionamento do sistema é extremamente simples: basta apertar o botão de contato momentâneo<br/> e o programa gerará
-  N números de X a Y, com intervalos entre as gerações para que haja uma "animação" no display.
+  N números aleatórios entre X e Y, com intervalos entre as gerações para que haja uma "animação" no display.
 </div>
