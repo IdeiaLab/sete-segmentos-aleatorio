@@ -25,7 +25,7 @@
       no programa também.
     </p>
     <p>
-      <strong>Note que atribuir um valor máximo maior que 9 a ser gerado pode findar em comportamento estranho de todo o sistema.</strong>
+      <strong>Note que atribuir um valor máximo maior que 9 a ser gerado gerará comportamento indefinido no sistema.</strong>
     </p>
   </div>
   <hr/>
