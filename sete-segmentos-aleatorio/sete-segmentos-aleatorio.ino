@@ -58,7 +58,7 @@ void loop()
   { return; }
 
   // Senão...
-  for(byte i = Constante::REPETICOES; i > 0; --i)
+  for(byte i = 1; i <= Constante::REPETICOES; ++i)
   {
     // Inicializando ou limpando os bits que serão 
     // atribuídos aos pinos do CI
@@ -79,7 +79,7 @@ void loop()
 
     // Mapeia da porcentagem de conclusão do loop for para um delay entre 0 e DELAY_MAXIMO_GERACOES, o valor mapeado
     // aumentará conforme o loop vai chegando ao fim, isso gera um efeito de animação interessante no display.
-    long delayAtual = map((Constante::REPETICOES - i), 0, Constante::REPETICOES, 0, Constante::DELAY_MAXIMO_GERACOES);
+    long delayAtual = map(i, 0, Constante::REPETICOES, 0, Constante::DELAY_MAXIMO_GERACOES);
 
     delay(delayAtual);
   }
