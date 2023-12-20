@@ -15,9 +15,8 @@
       <li>2x Resistor de 300 ohms</li>
       <li>Vários <i>jumpers</i></li>
     </ul>
-    <p>
-      <a href='https://byjus.com/maths/decimal-to-binary/'>LEIA SOBRE A CONVERSÃO INCORPORADA NO PROGRAMA</a><br/>
-    </p>  
+    <p> <a href='https://www.hackster.io/ideialab/random-number-generator-for-7-segment-display-bf7047'> Publicação no Hackster.io </a> </p>
+    <p> <a href='https://byjus.com/maths/decimal-to-binary/'>LEIA SOBRE A CONVERSÃO INCORPORADA NO PROGRAMA</a><br/> </p>  
     <p>
       Para a montagem do circuito, você pode seguir o diagrama encontrado
       <a href='https://www.arduinoecia.com.br/como-usar-decodificador-cd4511-arduino-display-7-segmentos/'>aqui</a>
