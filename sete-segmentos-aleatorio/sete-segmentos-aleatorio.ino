@@ -1,3 +1,8 @@
+/***************************
+  IdeiaLab codigo para sete segmentos aleatorio;
+  Data da ultima alteração 20.12.2023
+***************************/
+
 // Namespace que contém as constantes globais do programa
 namespace Constante
 {
