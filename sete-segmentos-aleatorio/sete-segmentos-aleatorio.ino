@@ -1,6 +1,7 @@
 /***************************
   IdeiaLab codigo para sete segmentos aleatorio;
   Data da ultima alteração 20.12.2023
+  https://www.hackster.io/ideialab/random-number-generator-for-7-segment-display-bf7047
 ***************************/
 
 // Namespace que contém as constantes globais do programa
